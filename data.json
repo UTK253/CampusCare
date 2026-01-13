@@ -1,0 +1,99 @@
+{
+    "counselors": [
+        {
+            "id": "c1",
+            "name": "Dr. Sarah Chen",
+            "specialty": "Anxiety & Stress",
+            "image": "https://api.dicebear.com/7.x/micah/svg?seed=Sarah&backgroundColor=ffdfbf",
+            "availableSlots": [
+                "Mon 10:00 AM",
+                "Tue 2:00 PM",
+                "Thu 11:00 AM"
+            ],
+            "rating": 4.9,
+            "bio": "Specialist in academic stress and anxiety management with 10 years of experience."
+        },
+        {
+            "id": "c2",
+            "name": "Dr. Marcus Johnson",
+            "specialty": "Depression & Mood",
+            "image": "https://api.dicebear.com/7.x/micah/svg?seed=Marcus&backgroundColor=c0aede",
+            "availableSlots": [
+                "Wed 9:00 AM",
+                "Fri 3:00 PM"
+            ],
+            "rating": 4.8,
+            "bio": "Expert in mood disorders and cognitive behavioral therapy."
+        },
+        {
+            "id": "c3",
+            "name": "Ms. Emily Davis",
+            "specialty": "Relationships",
+            "image": "https://api.dicebear.com/7.x/micah/svg?seed=Emily&backgroundColor=b6e3f4",
+            "availableSlots": [
+                "Mon 1:00 PM",
+                "Tue 10:00 AM",
+                "Fri 1:00 PM"
+            ],
+            "rating": 4.7,
+            "bio": "Helping students navigate relationship challenges and social anxiety."
+        }
+    ],
+    "resources": [
+        {
+            "id": "r1",
+            "title": "5-Minute Grounding Technique",
+            "type": "Article",
+            "category": "Anxiety",
+            "content": "Focus on your breathing. Inhale for 4 seconds, hold for 7, exhale for 8...",
+            "readTime": "3 min"
+        },
+        {
+            "id": "r2",
+            "title": "Guided Meditation for Sleep",
+            "type": "Audio",
+            "category": "Wellness",
+            "url": "/audio/sleep.mp3",
+            "duration": "15 min"
+        },
+        {
+            "id": "r3",
+            "title": "Understanding Burnout",
+            "type": "Video",
+            "category": "Stress",
+            "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "duration": "10 min"
+        }
+    ],
+    "events": [
+        {
+            "id": "e1",
+            "title": "Exam Stress Workshop",
+            "date": "2026-01-15T14:00:00",
+            "location": "Student Center, Room 101"
+        },
+        {
+            "id": "e2",
+            "title": "Java & Journaling",
+            "date": "2026-01-18T10:00:00",
+            "location": "Campus Cafe"
+        }
+    ],
+    "stats": {
+        "studentsHelped": 1240,
+        "activeCounselors": 15,
+        "avgWaitTime": "24h"
+    },
+    "user": {
+        "name": "Utkarsh",
+        "studentId": "UTK253",
+        "appointments": [
+            {
+                "id": "a1",
+                "counselorId": "c1",
+                "date": "2026-01-10T10:00:00",
+                "status": "Completed"
+            }
+        ]
+    }
+}
